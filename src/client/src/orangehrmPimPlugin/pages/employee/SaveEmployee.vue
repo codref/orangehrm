@@ -212,7 +212,7 @@ export default {
         ],
         username: [
           required,
-          shouldNotLessThanCharLength(5),
+          shouldNotLessThanCharLength(3),
           shouldNotExceedCharLength(40),
         ],
         status: [required],

@@ -33,7 +33,7 @@ class UserService
 {
     use UserRoleManagerTrait;
 
-    public const USERNAME_MIN_LENGTH = 5;
+    public const USERNAME_MIN_LENGTH = 3;
     public const USERNAME_MAX_LENGTH = 40;
 
     private UserDao $userDao;

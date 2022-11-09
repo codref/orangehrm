@@ -155,7 +155,7 @@ export default {
       rules: {
         username: [
           required,
-          shouldNotLessThanCharLength(5),
+          shouldNotLessThanCharLength(3),
           shouldNotExceedCharLength(40),
           promiseDebounce(this.validateUserName, 500),
         ],

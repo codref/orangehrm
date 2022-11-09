@@ -154,7 +154,7 @@ export default {
         username: [
           required,
           shouldNotExceedCharLength(40),
-          shouldNotLessThanCharLength(5),
+          shouldNotLessThanCharLength(3),
         ],
         password: [required, shouldNotExceedCharLength(64), checkPassword],
         passwordConfirm: [
